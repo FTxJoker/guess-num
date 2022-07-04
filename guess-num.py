@@ -17,4 +17,4 @@ while True:
         print('比答案小')
     elif r > num:
         print('比答案大')
-print('本次總共猜了', count, '次')
+print('本次總共猜了 {0} 次'.format(count))
